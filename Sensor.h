@@ -11,6 +11,8 @@
 #ifndef SENSOR_H_
 #define SENSOR_H_
 
+#include <time.h>
+
 #define SENS_CLASS_NONE	-1			// Not initialized
 #define SENS_CLASS_MTP	 0			// MyTeePi virtual or phisical sensor
 #define SENS_CLASS_OS	 1			// Oregon Scientific
